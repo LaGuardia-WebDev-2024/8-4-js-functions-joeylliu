@@ -5,7 +5,7 @@ void setup(){
 
   var textX = random(50, 550);
   var textY = random(50, 350);
-  var yourName = "Your Name";
+  var yourName = "joey";
 
   fill(241,9,55);
   textSize(40);
@@ -16,6 +16,15 @@ void setup(){
 draw = function(){  
 
 };
+var drawName = function(){
+  var textX = random(50, 550);
+  var texty = random(50, 550);
+  var yourName = "joey";
+
+  fill(241,9,55);
+  textSize(40);
+  text("Hiiii, " + yourName, textX, textY);
+}
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
